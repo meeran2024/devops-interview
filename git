@@ -1,0 +1,10 @@
+1. what is difference between git and git hub?
+2. Commonly used git commands?
+3. how will you commit ?
+4. Git stash? 
+        Let’s say you're a developer and you want to switch branches to work on something else. The issue is you don’t want to make commits in uncompleted work, so you just want to get back to this point later. The solution here is the Git stash. 
+
+        Git stash takes your modified tracked files and saves it on a stack of unfinished changes that you can reapply at any time. To go back to the work you can use the stash pop.
+5. merge conflict ?
+6. how to reverse the commit ?
+7.        

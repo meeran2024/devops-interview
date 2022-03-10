@@ -1,0 +1,16 @@
+1. Difference between tuple and list?
+2. Is python syatic or dynamic typs? what it means? 
+2. Can we use break and continue together in python ?
+3. What is __init__ in python?
+4. What are local and global variables ?
+5. How does break, continue and pass works?
+6. What are all the modes available in python? 
+7. *args and kwargs mean?
+8. How do reverse the list?
+9. What is lambda function in python? 
+10. Mutable and immutable data types? 
+        mutable - list, set, dict 
+        immutable - str, tuple. 
+11. Explain some methods of list?
+        append, remove, sort, reverse.
+12.                 

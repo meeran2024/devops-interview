@@ -1,0 +1,16 @@
+1. How to check the running process in linux?
+    using top and ps 
+2. What is PATH variable?
+3. How to killa process ?
+4. How to check the free disk ?
+5. How to check server uptime? 
+        uptime , top 
+6. How to start/stop the service?
+7. How to display the shells environment variables?
+        env, printenv 
+8. How the shell script will be executed? #!/bin/bash 
+9. what is piping command ?
+10. How to find the which os distribution? 
+        cat /etc/*release        
+11. What is your favourite editor ?
+12.         

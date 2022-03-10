@@ -1,0 +1,37 @@
+
+1. What are all the AWS services for CI/CD process? 
+        code commit, code build, code deploy 
+1. what are all the AWS best security practices?        
+2. What is code star?
+2. what is ECS ? 
+2. what is the log4j issue ? 
+3. What are all services used in AWS ?
+4. What is the IAC tool in AWS ? 
+5. What is AMI ?
+6. What are all the different storage class in S3 ?
+7. What are the encryption method available in s3 ?
+8. What are all the services that are not region specific? 
+    IAM, Route 53, WAF, Cloudfront. 
+9. What is VPC and products available in VPC?
+10. What are all the monitoring system available in AWS ?
+11. What are all the security available in VPC ?
+        security group, nacl 
+12. How securely can connect to s3 bucket without internet ? 
+        using gateway endpoints. 
+13. Difference between block storage and file storage? 
+14. Have webserver Ec2 machine, which is stopped for maintenance and after web server is not working? 
+            Use Elastic IP. Public IP change after stopped or terminated. 
+15. Using lambda to execute the code which runs for 30 mins but it failed to process? 
+            lambda max execution time is 15 mins. Use AWS step functions to run multiple lambda. 
+16. How to maintain the AWS CLI ? 
+17. What is blue/green and canary deployment? 
+18. What are all the monitoring tools used ?
+19. What is the service used to store the docker images ?
+20. Capability_iam error in cloudformation? 
+21. cfn-hup, cfn-metadata, 
+22. different disaster recovery strategy?
+        backup & restore, pilot light, warm standby, hot site. 
+23. For multi account, organization is used ?
+
+
+

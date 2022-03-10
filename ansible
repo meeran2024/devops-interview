@@ -1,0 +1,11 @@
+1. What are all the different components of ansible? 
+2. What are all the modules used?
+3. How dynamic inventory used to receive the ec2 ip details?
+4. What is the high level structure of ansible? 
+5. Why ansible tag is used ?
+6. what is ansible galaxy ?
+7. Can create our own modules? 
+8. How do I handle different machines needing different user accounts or ports to log in with?
+        Using inventory file.
+9. How to execute a task based on the condition?
+        using when condition 

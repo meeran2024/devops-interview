@@ -1,0 +1,14 @@
+
+1. How are kubernetes and docker related ?
+2. Difference between docker swarm and kubernetes?
+3. Difference of pod and containers?
+4. Main components of kubernetes architecture? 
+5. How can separate team uses the kubernetes without interferance ?
+6. Different services in kubernetes?
+7. What is ingress network? 
+8. difference between relica controller and replica set ?
+9. What is kubelet, kubectl ?
+10. What is helm chart ? 
+11. What is network policy ?
+12. Different volume types , storage class and persistent volume difference? 
+13. 

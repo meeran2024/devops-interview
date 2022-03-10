@@ -1,0 +1,14 @@
+
+1. What is terraform provider?
+2. Common commands used in terraform?
+3. How to use modules ?
+4. What is Tainted resources? 
+5. What is provisioner and types ? 
+6. What is sentinental?
+7. How to store sentinental data ?
+8. What is terraform state ?
+9. What is data source ? 
+10. What is count parameter ?
+11. Where do you store terraform.tfstate file when working in team? 
+12. How do you configure multiple provider instance?
+13. How do you check the file without submitting , syntax check ?
