@@ -101,7 +101,11 @@
 
 5. What is centralised logging? 
 
-        
+        It helps to debug if any issue and track behaviour of application/flows.
+        For ex: in ASG, if terminates logs are not available. 
+        Centralized log helps to keep all logs in one place and helps for easire analyze.
+
+-------------------------------------------------------------------------------------------------------------
 
         
 
