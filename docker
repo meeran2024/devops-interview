@@ -11,6 +11,54 @@
 
 
 
+-------------------------------------------------------------------------------------------------------------
+
+1. How to check logs in docker container and filter last 100 lines? 
+
+        docker container logs container-name 
+        docker container logs -tail 100 container-name 
+
+-------------------------------------------------------------------------------------------------------------
+
+2. What happens to container logs if restart the container? will it be lost ? 
+
+If external persistent storage is not used, 
+        If container is stopped/started or restarted, then wont lose the log.
+        It delete the container, then lose the logs.
+If external persistent strorage is used,
+
+-------------------------------------------------------------------------------------------------------------
+
+3. Docker image with 3 gb size cause issue and how to tackle this? 
+
+        Causes:
+                Bigger docker image will take longer build.
+                Download may file internet slowness etc.
+                Application will become bulkier.
+
+        Solution
+                Take smaller base image.
+                Not to install unnecessary package.
+                Remove package binaries after installing.
+                Multi stage build feature.
+
+-------------------------------------------------------------------------------------------------------------
+
+4. What is difference of docker image vs docker layers? 
+
+        In Dockerfile, each instruction is created as Layers.
+        Combination of all layers is IMAGE.
+
+-------------------------------------------------------------------------------------------------------------
+5. Difference of CMD vs ENTRYPOINT?
+
+        ENTRYPOINT - Appended 
+        CMD - Override the value 
+        --entrypoint = to update the entrypoint. 
+
+-------------------------------------------------------------------------------------------------------------
+6. -alpine -> light weight image.
+
 
 
 

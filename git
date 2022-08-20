@@ -8,3 +8,21 @@
 5. merge conflict ?
 6. how to reverse the commit ?
 7.        
+
+-------------------------------------------------------------------------------------------------------------
+
+1. How to pass message when commit git code? 
+
+        git commit -m "message"
+
+-------------------------------------------------------------------------------------------------------------
+
+2. How do you change in git? 
+
+        using git clone and create new branch.
+        BLAME in github is used to check git history.
+
+-------------------------------------------------------------------------------------------------------------
+3. What is branch protection in github? 
+        
+                
