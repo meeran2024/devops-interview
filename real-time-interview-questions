@@ -45,4 +45,5 @@ Service Based - Level1(Dec 2023):
   5. Any critical issues faced?
   6. What is terraform agent?
   7. How do you handle multi cloud in terraform?
+  8. How external client communicate with backend server?
 ------------------------------------------------------------------------------------------------------------------------------
