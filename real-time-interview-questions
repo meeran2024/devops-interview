@@ -35,6 +35,14 @@ Product Based - Level1(Oct 2023):
   3. Difference of Microservice and Monolithic architecture?
   4. Explain the kubernetes architecture? 
   5. How pod communicate with service? will use static IP
-  6. 
-
+------------------------------------------------------------------------------------------------------------------------------
+Service Based - Level1(Dec 2023):
+  1. What are the things to conside while creating module?
+  2. In ELB, if both health check failed in target group. what happens?
+      If a target group contains only unhealthy registered targets, the load balancer routes requests to all those targets, regardless of their health status.
+  3. What are the algorithims used in ELB?
+  4. Best practices used in AWS?
+  5. Any critical issues faced?
+  6. What is terraform agent?
+  7. How do you handle multi cloud in terraform?
 ------------------------------------------------------------------------------------------------------------------------------
