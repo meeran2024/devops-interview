@@ -29,14 +29,14 @@ Service Based (Oct 2023):
   27. To troubleshoot the client not able to reach server behind loadbalancer. what could be the reason?
   28. What are the different types of roles in AWS?
 ------------------------------------------------------------------------------------------------------------------------------
-Product Based - Level1(Oct 2023):
+Product Based - Level1 (Oct 2023):
   1. What is DevOps?
   2. Difference of DevOps and Agile?
   3. Difference of Microservice and Monolithic architecture?
   4. Explain the kubernetes architecture? 
   5. How pod communicate with service? will use static IP
 ------------------------------------------------------------------------------------------------------------------------------
-Service Based - Level1(Dec 2023):
+Service Based - Level1 (Dec 2023):
   1. What are the things to conside while creating module?
   2. In ELB, if both health check failed in target group. what happens?
       If a target group contains only unhealthy registered targets, the load balancer routes requests to all those targets, regardless of their health status.
@@ -46,4 +46,26 @@ Service Based - Level1(Dec 2023):
   6. What is terraform agent?
   7. How do you handle multi cloud in terraform?
   8. How external client communicate with backend server?
+------------------------------------------------------------------------------------------------------------------------------
+Service Based - Level1 (Oct 2023):
+  1. Tell about yourself?
+  2. Which port is consumed by docker container and how to check which port is using?
+  3. Docker networking types? and how to pass network
+      None, Bridge, Overlay,Host
+  4. Docker volumes types? and how to pass volume
+      Volume and Bind Mount
+  5. Difference of CMD and ENTRYPOINT?
+  6. How to check docker image layers?
+        docker image history
+  7. In kubernetes, what is the reclaim policy in PV?
+        retain, delete, recycle
+  8. Difference of retain vs recycle?
+  9. In kubernetes, different types of roles?
+        role, rolebinding, cluster role, cluster rolebinding
+  10. How access is giving to pod?
+        Using serviceaccountname.
+  11. Difference of git reset and git revert?
+        git reset - soft, hard, mixed
+  12. Terraform import?
+  13. Day to day activities?
 ------------------------------------------------------------------------------------------------------------------------------
