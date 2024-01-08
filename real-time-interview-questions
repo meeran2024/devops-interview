@@ -3,20 +3,39 @@ Service Based (Oct 2023):
   1. Tell about yourself?
   2. What kind of migration you handled?
   3. How EC2 communicate with other EC2?
+        Same VPC, same Subnet can communicate by default using private IP address. 
+        Security group should be opened for source EC2 IP.
+        Route table to allow LOCAL subnet.
   4. S3 Life cycle policy? 
+        Move from one storage class to another storage class (for ex: from standard to Infrequent access to Glacier)
+        To expire the object using TTL.
+        To delete the non current version based on the timing.
+        To delete the expired objects, failed multipart upload, delete marker.        
   5. Accessing EC2 from public IP?
-  6. How to get all configuration of EC2 with similar instance? 
+        Using SSH from public ip.
+        Using jumpbox for private ip.
+  6. How to get all configuration of EC2 with similar instance?
+        Create an Image from existng Ec2. From their, create another EC2 instance.
   7. Can have S3 bucket as base volume? 
+        No, S3 is object based storage. Have to use EBS as this is block storage.
   8. What is cloudwatch logs?
+        Log group, Log stream, Permission
   9. What is terraform init, validate and fmt?
   10. How to read a variable from child module to parent module in terraform?
   11. What is for-each in terraform? Whether arrays can be used in for-each.
+          Like count, can create the resources based on values in variable. Can accept only set or map.
   12. What is terraform import and terraform locking?
   13. How pod to pod communication happen? is it happens through IP address?
-  14. What is ingreaa and secrets in kubernetes?
+          It uses service for the communication from one pod to another pod. 
+          Kube proxy uses iptables to route to the traffic to pod.
+  14. What is ingress and secrets in kubernetes?
+          It is API object that provides routing rules to manage external users access to the service in kubernetes.
   15. Difference between CMD and ENTRYPOINT?
   16. Types of jenkins pipeline?
+          Declarative - pipeline{}
+          Scripted - node{}
   17. Difference of security group and NACL?
+
   18. Hav you created any custom IAM policy?
   19. What are the things you do for cluster migration?
   20. Difference of static pod vs Daemonset?
