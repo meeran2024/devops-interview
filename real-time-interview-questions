@@ -131,5 +131,5 @@ Service Based:
   23. How services are installed in cluster through kubernetes manifest, helm chart or operator?
   24. Gate Keeper policy management tool?
   25. Fluentbit 
-extra: keywords, annotation, celium, vault
+extra: keywords, annotation, celium, vault, velero for backup,
 ------------------------------------------------------------------------------------------------------------------------------
