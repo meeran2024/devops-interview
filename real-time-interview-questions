@@ -105,7 +105,31 @@ Service Based - Level1 (Dec 2023):
   14. Maven life cycle.
   15. Different stages of Jenkins pipeline?
 ------------------------------------------------------------------------------------------------------------------------------
-
-
+Service Based:
+  1. Have you done any cluster management work in kubernets?
+  2. Have you done any individual contribution work and feel success and proud about it?
+  3. How do you setup kubernetes cluster , can you explain to setup from scratch?
+  4. Have you faced any cluster related issue? if yes, how do you troubleshoot and fix it.
+  5. Which tool you used to setup cluster?
+  6. What is your contribution in terrform?
+  7. Have you used modules in terraform?
+  8. How your autoscaling configured in kubernetes cluster?
+  9. How do you setup autoscaling?
+  10. Is there any other way to configure autoscaling? Explain about carpenter.
+  11. Which AWS service you used and you interested in?
+  12. Consider the requirement to setup VPC and attach to EC2?
+  13. How will get you know to get the range of IP address for subnet CIDR range.
+  14. How private IP connect to the internet?
+  15. Do you know how pods will communicate and how setup is done in previous project?
+  16. How ingress is setup in previous project?
+  17. How to improvise the ingress process? Istio service mesh.
+  18. Frequent queries from customers/developer?
+  19. Have you worked on node troubleshooting?
+  20. Have you worked on customer/developer pod issues?
+  21. How do you integrate datadog with splunk?
+  22. How datadog is installed in cluster and also in customer pod?
+  23. How services are installed in cluster through kubernetes manifest, helm chart or operator?
+  24. Gate Keeper policy management tool?
+  25. Fluentbit 
+extra: keywords, annotation, celium, vault
 ------------------------------------------------------------------------------------------------------------------------------
-
